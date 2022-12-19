@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>contact us</title>
+</head>
+
+<body>
+    <div class="contact_us">
+        <div class="title">
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="box">
+            <!-- ---------------form------------------ -->
+            <div class="contact form">
+                <h3>send a message</h3>
+                <form  name="myForm" onsubmit="return validateForm()" method="post">
+                    <div class="formBox">
+                        <div class="row50">
+                            <div class="inputBox" id="name">
+                                <span>first Name</span>
+                                <input type="text" placeholder="First Name" name="fname" required><span class="formerror"></span>
+                            </div>
+                            <div class="inputBox">
+                                <span>Last Name</span>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputBox" id="email">
+                                <span>Email-Address</span>
+                                <input type="email" placeholder="E-mail" name="fmail" required><span class="formerror"></span>
+                            </div>
+                            <div class="inputBox" id="phone">
+                                <span>Mobile</span>
+                                <input type="number" placeholder="Mobile" name="fphone"> <span class="formerror"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <span>Message</span>
+                                <textarea placeHolder="write your message here..............."></textarea>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBox">
+                                <input type="Submit" value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- -----------info Bar---------------- -->
+            <div class="contact Info">
+                <h3>Contact info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span>
+                            <ion-icon name="pin"></ion-icon>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet.<br> INDIA</p>
+                    </div>
+                    <div>
+                        <span>
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <a href="#">loremeptiom@gmail.com</a>
+                    </div>
+                    <div>
+                        <span>
+                            <ion-icon name="call"></ion-icon>
+                        </span>
+                        <a href="tel:1234865431">435-9023-4567</a>
+                    </div>
+                    <ul class="sci">
+                        <li><a herf="#">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a></li>
+                        <li><a herf="#">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a></li>
+                        <li><a herf="#">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a></li>
+                        <li><a herf="#">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- -------------------map------------------ -->
+            <div class="contact Map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d938092.6763624265!2d77.2383494960937!3d23.300351489522825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1661165727548!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------script------------------------- -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
