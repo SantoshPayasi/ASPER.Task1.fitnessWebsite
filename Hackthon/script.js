@@ -76,9 +76,9 @@ var swiper = new Swiper(".card_slider", {
   });
 
   // -----------------------------------------loader-----------------------------
-  // var loader=document.getElementById("loader");
-  // window.addEventListener("load", function(){
-  //   loader.style.display="none";
-  // })
+  var loader=document.getElementById("loader");
+  window.addEventListener("load", function(){
+    loader.style.display="none";
+  })
 
   
